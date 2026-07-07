@@ -33,7 +33,7 @@ export function Testimonials() {
 
       <div className="mx-auto max-w-3xl px-4 py-8">
         <h2 className="mb-6 text-3xl font-semibold tracking-tight">
-          Trusted by top builders on <span aria-label="X">𝕏</span>
+           Helping brands communicate through design.
         </h2>
 
         {/* Pinned/featured row — exactly two full cards, always visible */}
