@@ -131,6 +131,74 @@ export const BLOG_POSTS: BlogPost[] = [
   // },
 ]
   },
+
+{
+    slug: "instagram-username-video-announcement",
+    title: "Instagram Username video Announcement (sample)",
+    description: "instagram username announcement and social media campaign for Graphic Era Hill University", 
+    date: "2026-01-02",
+    image: "/p12/2.gif",
+    sections: [
+      {
+    id: "social media ",
+    title: "Sample video",
+    depth: 2,
+    content:
+      "insta username video annocement design 1.",
+    image: "/p12/1.gif",
+    imageAlt: "nssgehulogo",
+  },
+   
+    
+     
+    ],
+  },
+
+  {
+    slug: "website-banners",
+    title: "Ai✨website banners",
+    description: "website banners and promotional graphics for landing pages", 
+    date: "2026-04-04",
+    image: "/p11/1.png",
+    sections: [
+      {
+    id: "sample banner design",
+    title: "Sample Banner Design",
+    depth: 2,
+    content:
+      "sample banner design 1.",
+    image: "/p11/2.png",
+    imageAlt: "websitebanners",
+  },
+   {
+    id: "sample banner design",
+    title: "Sample Banner Design 1",
+    depth: 2,
+    content:
+      "sample banner design 2.",
+    image: "/p11/2.png",
+    imageAlt: "websitebanners",
+  },
+     {
+    id: "sample banner design",
+    title: "Sample Banner Design 2",
+    depth: 2,
+    content:
+      "sample banner design 3.",
+    image: "/p11/3.png",
+    imageAlt: "websitebanners",
+  },
+     {
+    id: "sample banner design",
+    title: "Sample Banner Design 4",
+    depth: 2,
+    content:
+      "sample banner design 4.",
+    image: "/p11/4.png",
+    imageAlt: "websitebanners",
+  }, 
+    ],
+  },
    {
     slug: "WomensDay-Poster-Design",
     title: "Women's Day Poster Design",
