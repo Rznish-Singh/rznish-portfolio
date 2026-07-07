@@ -81,9 +81,9 @@ export const TESTIMONIALS: Testimonial[] = [
     quote: "keep it up! amazing work",
   },
   {
-    authorAvatar: "https://unavatar.io/x/MrAhmadAwais",
+    authorAvatar: "https://unavatar.io/x/",
     authorName: "Ahmad Awais",
-    authorTagline: "CEO @CommandCodeAI",
+    authorTagline: "Creator",
     url: "",
     quote: "lovely !! awesome work!",
   },
