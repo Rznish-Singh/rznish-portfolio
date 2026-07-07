@@ -9,6 +9,7 @@ export const USER = {
 }
 
 export const SOCIAL_LINKS = [
+  { title: "Dev-Portfolio", href: "https://rznish.vercel.app/" },
   { title: "GitHub", href: "https://github.com/Rznish-singh" },
   { title: "X (Twitter)", href: "https://x.com/rznishsingh" },
   { title: "LinkedIn", href: "https://linkedin.com/in/rznish" },
@@ -151,6 +152,50 @@ export const BLOG_POSTS: BlogPost[] = [
       "insta username video annocement design 1.",
     image: "/p12/1.gif",
     imageAlt: "nssgehulogo",
+  },
+   
+    
+     
+    ],
+  },
+
+{
+    slug: "Rakshabandhan-Poster-Design",
+    title: "Rakshabandhan Poster Design",
+    description: "Rakshabandhan poster design for Graphic Era Hill University", 
+    date: "2026-07-02",
+    image: "/p17/1.png",
+    sections: [
+      {
+    id: "social media ",
+    title: "Rakshabandhan Poster Design",
+    depth: 2,
+    content:
+      "Rakshabandhna social media post .",
+    image: "/p17/1.png",
+    imageAlt: "rakshabandhanposterdesign",
+  },
+   
+    
+     
+    ],
+  },
+
+{
+    slug: "independence-day-Poster-Design",
+    title: "Independence Day Poster Design",
+    description: "Independence Day poster design for Graphic Era Hill University", 
+    date: "2026-07-5",
+    image: "/p18/1.png",
+    sections: [
+      {
+    id: "social media ",
+    title: "Independence Day Poster Design",
+    depth: 2,
+    content:
+      "Independence Day social media post .",
+    image: "/p18/1.png",
+    imageAlt: "independencedayposterdesign",
   },
    
     
