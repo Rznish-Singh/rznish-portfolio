@@ -555,7 +555,7 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   
    {
-    slug: "Waste-Warrior",
+    slug: "Waste-Warrior-2",
     title: "Waste Warrior x NSS GEHU",
     description: "This project focuses on creating a social media campaign for the Waste Warrior initiative in collaboration with NSS GEHU.",
     date: "2024-09-15",
