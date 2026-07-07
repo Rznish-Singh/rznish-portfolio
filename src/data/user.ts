@@ -1,3 +1,5 @@
+import { title } from "process"
+
 export const USER = {
   name: "Rznish",
   headline: "Builder , Designer , Developer",
@@ -479,6 +481,179 @@ export const BLOG_POSTS: BlogPost[] = [
   },
    
      
+    ],
+  },
+  
+  {
+    slug: "2october-Social-Media-Post",
+    title: "2 October Social Media Post",
+    description: "This project focuses on creating a poster design for the 2 October social media campaign.",
+    date: "2024-09-24",
+    image: "/p16/1.png",
+    sections: [
+      {
+    id: "2 October Social Media Post",
+    title: "2 October Social Media Post",
+    depth: 2,
+    content:
+      "2 October Social Media Post.",
+    image: "/p16/1.png",
+    imageAlt: "2octoberpost",
+  },
+   
+     
+    ],
+  },
+    
+  
+  {
+    slug: "Waste-Warrior",
+    title: "Waste Warrior x NSS GEHU",
+    description: "This project focuses on creating a social media campaign for the Waste Warrior initiative in collaboration with NSS GEHU.",
+    date: "2024-09-15",
+    image: "/p15/3.png",
+    sections: [
+      {
+        id: "Social Media Campaign",
+        title: "Social Media Campaign",
+        depth: 2,
+        image: "/p15/1.png",
+        imageAlt: "Social Media Campaign",
+        content:
+          "This project focuses on creating a social media campaign for the Waste Warrior initiative, highlighting their initiatives and community impact.",
+      },
+      {
+        id: "insta story design",
+        title: "Insta story Design",
+        depth: 2,
+        image: "/p15/2.png",
+        imageAlt: "Insta story Design",
+        content:
+          "Explore our Insta post design for the Waste Warrior campaign, showcasing their activities and events.",
+      },
+      {
+        id: "insta story design",
+        title: "Insta Story Design",
+        depth: 2,
+        image: "/p15/4.png",
+        imageAlt: "Insta Story Design",
+        content:
+          "",
+      },
+      
+        {
+        id: "insta Post design",
+        title: "Insta Post Design",
+        depth: 2,
+        image: "/p15/3.png",
+        imageAlt: "Insta Post Design",
+        content:
+          "Explore our Insta post design for the Waste Warrior campaign, showcasing their activities and events.",
+      },
+      
+    ],
+  },
+  
+   {
+    slug: "Waste-Warrior",
+    title: "Waste Warrior x NSS GEHU",
+    description: "This project focuses on creating a social media campaign for the Waste Warrior initiative in collaboration with NSS GEHU.",
+    date: "2024-09-15",
+    image: "/p14/1111.png",
+    sections: [
+      {
+        id: "Social Media Campaign",
+        title: "Social Media Campaign",
+        depth: 2,
+        image: "/p14/1.png",
+        imageAlt: "Social Media Campaign",
+        content:
+          "This project focuses on creating a social media campaign for the Waste Warrior initiative, highlighting their initiatives and community impact.",
+      },
+      {
+        id: "insta post design",
+        title: "Insta Post Design",
+        depth: 2,
+        image: "/p14/2.png",
+        imageAlt: "Insta Post Design",
+        content:
+          "Explore our Insta post design for the Waste Warrior campaign, showcasing their activities and events.",
+      },
+      {
+        id: "insta story design",
+        title: "Insta Story Design",
+        depth: 2,
+        image: "/p14/3.png",
+        imageAlt: "Insta Story Design",
+        content:
+          "",
+      },
+      
+        {
+        id: "insta Post design",
+        title: "Insta Post Design",
+        depth: 2,
+        image: "/p14/4.png",
+        imageAlt: "Insta Post Design",
+        content:
+          "Explore our Insta post design for the Waste Warrior campaign, showcasing their activities and events.",
+      },
+      {
+        id: "insta Post design",
+        title: "Insta Post Design",
+        depth: 2,
+        image: "/p14/5.png",
+        imageAlt: "Insta Post Design",
+        content:
+          "Explore our Insta post design for the Waste Warrior campaign, showcasing their activities and events.",
+      },
+      {
+        id: "insta Post design",
+        title: "Insta Post Design",
+        depth: 2,
+        image: "/p14/6.png",
+        imageAlt: "Insta Post Design",
+        content:
+          "Explore our Insta post design for the Waste Warrior campaign, showcasing their activities and events.",
+      },
+      {
+        id: "insta Post design",
+        title: "Insta Post Design",
+        depth: 2,
+        image: "/p14/7.png",
+        imageAlt: "Insta Post Design",
+        content:
+          "Explore our Insta post design for the Waste Warrior campaign, showcasing their activities and events.",
+      },
+      {
+        id: "insta Post design",
+        title: "Insta Post Design",
+        depth: 2,
+        image: "/p14/8.png",
+        imageAlt: "Insta Post Design",
+        content:
+          "Explore our Insta post design for the Waste Warrior campaign, showcasing their activities and events.",
+      },
+      {
+        id: "insta Post design",
+        title: "Insta Post Design",
+        depth: 2,
+        image: "/p14/9.png",
+        imageAlt: "Insta Post Design",
+        content:
+          "Explore our Insta post design for the Waste Warrior campaign, showcasing their activities and events.",
+      },
+      {
+        id: "insta Post design",
+        title: "Insta Post Design",
+        depth: 2,
+        image: "/p14/10.png",
+        imageAlt: "Insta Post Design",
+        content:
+          "Explore our Insta post design for the Waste Warrior campaign, showcasing their activities and events.",
+      },
+     
+      
     ],
   },
    {
