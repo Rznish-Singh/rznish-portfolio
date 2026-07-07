@@ -106,24 +106,24 @@ export const BLOG_POSTS: BlogPost[] = [
     depth: 2,
     content:
       "This project focuses on creating a modern dashboard with a clean user experience.",
-    image: "/p1/12.png",
-    imageAlt: "Dashboard overview",
+    image: "/p1/1.png",
+    imageAlt: "portfolio preview",
   },
-  {
-    id: "portfolio",
-    title: "Related Portfolio",
-    depth: 2,
-    content:
-      "Explore the complete design process, wireframes, and high-fidelity mockups on Behance.",
-    image: "/p1/11.png",
-    imageAlt: "Behance project preview",
-    // links: [
-    //   {
-    //     label: "View on Behance",
-    //     href: "https://www.behance.net/rznish",
-    //   },
-    // ],
-  },
+  // {
+  //   id: "portfolio",
+  //   title: "Related Portfolio",
+  //   depth: 2,
+  //   content:
+  //     "Explore the complete design process, wireframes, and high-fidelity mockups on Behance.",
+  //   image: "/p1/11.png",
+  //   imageAlt: "Behance project preview",
+  //   // links: [
+  //   //   {
+  //   //     label: "View on Behance",
+  //   //     href: "https://www.behance.net/rznish",
+  //   //   },
+  //   // ],
+  // },
   // {
   //   id: "walkthrough",
   //   title: "Project Walkthrough",
