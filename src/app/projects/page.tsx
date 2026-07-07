@@ -14,7 +14,7 @@ const description = "Explore my creative projects, showcasing my skills and expe
 export const metadata: Metadata = {
   title,
   description,
-  alternates: { canonical: "/blog" },
+  alternates: { canonical: "/projects" },
 }
 
 export default function BlogPage() {

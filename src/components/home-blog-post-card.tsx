@@ -18,7 +18,7 @@ export function HomeBlogPostCard({ post }: { post: BlogPost }) {
 
       <div className="flex flex-col gap-1 p-4">
         <h3 className="text-base leading-snug font-medium text-balance">
-          <Link href={`/blog/${post.slug}`}>
+          <Link href={`/projects/${post.slug}`}>
             <span className="absolute inset-0" aria-hidden />
             {post.title}
           </Link>

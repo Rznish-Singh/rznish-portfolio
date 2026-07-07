@@ -19,7 +19,7 @@ export function PostItem({ post }: { post: BlogPost }) {
 
       <div className="flex flex-col gap-1 p-2">
         <h2 className="text-lg leading-snug font-medium text-balance">
-          <Link href={`/blog/${post.slug}`}>
+          <Link href={`/projects/${post.slug}`}>
             <span className="absolute inset-0" aria-hidden />
             {post.title}
           </Link>

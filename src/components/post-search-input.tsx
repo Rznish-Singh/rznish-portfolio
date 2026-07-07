@@ -15,7 +15,7 @@ export function PostSearchInput({
       <input
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        placeholder="Search blog…"
+        placeholder="Search project…"
         className="h-full w-full bg-transparent text-sm outline-none placeholder:text-muted-foreground"
       />
       {value.length > 0 && (

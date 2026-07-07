@@ -38,7 +38,7 @@ export default async function BlogPostPage({
     depth: s.depth,
   }))
 
-  const postUrl = `${SITE_URL}/blog/${post.slug}`
+  const postUrl = `${SITE_URL}/projects/${post.slug}`
   const behanceUrl = "https://www.behance.net/rznish" // swap in your real Behance profile/project URL
   const markdown = postToMarkdown(post)
 
@@ -46,11 +46,11 @@ export default async function BlogPostPage({
     <div className="mx-auto max-w-3xl px-4 py-6">
       <div className="mb-6 flex items-center justify-between gap-2">
         <Link
-          href="/blog"
+          href="/projects"
           className="flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
         >
           <ArrowLeftIcon className="size-4" />
-          Blog
+          Projects
         </Link>
 
         <div className="flex items-center gap-2">
@@ -59,7 +59,7 @@ export default async function BlogPostPage({
 
           <Link
             aria-label="Previous post"
-            href={previous ? `/blog/${previous.slug}` : "#"}
+            href={previous ? `/projects/${previous.slug}` : "#"}
             aria-disabled={!previous}
             className="flex size-8 items-center justify-center rounded-md border border-border text-muted-foreground transition-colors hover:bg-accent hover:text-foreground aria-disabled:pointer-events-none aria-disabled:opacity-40"
           >
@@ -67,7 +67,7 @@ export default async function BlogPostPage({
           </Link>
           <Link
             aria-label="Next post"
-            href={next ? `/blog/${next.slug}` : "#"}
+            href={next ? `/projects/${next.slug}` : "#"}
             aria-disabled={!next}
             className="flex size-8 items-center justify-center rounded-md border border-border text-muted-foreground transition-colors hover:bg-accent hover:text-foreground aria-disabled:pointer-events-none aria-disabled:opacity-40"
           >

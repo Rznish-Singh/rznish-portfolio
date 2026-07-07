@@ -206,7 +206,7 @@ export function Blog() {
         <span className="text-xs text-muted-foreground">
           ({BLOG_POSTS.length})
         </span>
-        <CopyLinkIcon href="#blog" />
+        <CopyLinkIcon href="#projects" />
       </div>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -217,10 +217,10 @@ export function Blog() {
 
       <div className="mt-6 flex justify-center">
         <Link
-          href="/blog"
+          href="/projects"
           className="flex items-center gap-2 rounded-full border border-border bg-muted px-4 py-2 text-sm font-medium transition-colors hover:bg-accent"
         >
-          All posts
+          All projects
           <ArrowRightIcon className="size-3.5" />
         </Link>
       </div>
