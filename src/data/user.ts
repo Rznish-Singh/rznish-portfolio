@@ -204,6 +204,37 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
+    slug: "uttarakhand-day-Poster-Design",
+    title: "Uttarakhand Day Poster Design",
+    description: "Uttarakhand Day poster design for Graphic Era Hill University", 
+    date: "2026-07-5",
+    image: "/p19/2.png",
+    sections: [
+      {
+    id: "social media ",
+    title: "Uttarakhand Day Poster Design",
+    depth: 2,
+    content:
+      "Uttarakhand Day social media post .",
+    image: "/p19/1.png",
+    imageAlt: "uttarakhanddayposterdesign",
+  },
+   {
+    id: "social media ",
+    title: "Uttarakhand festival Poster Design",
+    depth: 2,
+    content:
+      "Uttarakhand festival social media post .",
+    image: "/p19/2.png",
+    imageAlt: "uttarakhandfestivalposterdesign",
+  },
+   
+    
+     
+    ],
+  },
+
+  {
     slug: "graphic-era-presidentbirthday-poster-design",
     title: "Graphic Era President Birthday Poster Design",
     description: "This project focuses on creating a poster design for the Graphic Era President's birthday celebration.", 
