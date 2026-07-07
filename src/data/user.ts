@@ -10,7 +10,7 @@ export const SOCIAL_LINKS = [
   { title: "GitHub", href: "https://github.com/Rznish-singh" },
   { title: "X (Twitter)", href: "https://x.com/rznishsingh" },
   { title: "LinkedIn", href: "https://linkedin.com/in/rznish" },
-  { title: "Behance", href: "https://behance.com/in/rznish" },
+  { title: "Behance", href: "https://www.behance.net/rznish" },
 ]
 
 export const TECH_STACK = [
@@ -132,6 +132,8 @@ export const BLOG_POSTS: BlogPost[] = [
 ]
   },
 
+
+
 {
     slug: "instagram-username-video-announcement",
     title: "Instagram Username video Announcement (sample)",
@@ -155,6 +157,35 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
+    slug: "graphic-era-presidentbirthday-poster-design",
+    title: "Graphic Era President Birthday Poster Design",
+    description: "This project focuses on creating a poster design for the Graphic Era President's birthday celebration.", 
+    date: "2026-02-14",
+    image: "/p10/3.png",
+    sections: [
+      {
+    id: "instagram post design",
+    title: "Instagram post design",
+    depth: 2,
+    content:
+      "Instagram post design for Graphic Era President Birthday.",
+    image: "/p10/3.png",
+    imageAlt: "instagrampostdesign",
+  },
+  {
+    id: "Instagram story design",
+    title: "Instagram story design",
+    depth: 2,
+    content:
+      "Instagram story design for Graphic Era President Birthday.",
+    image: "/p10/2.png",
+    imageAlt: "instagramstorydesign",
+  },
+   
+    ],
+  },
+
+  {
     slug: "website-banners",
     title: "Ai✨website banners",
     description: "website banners and promotional graphics for landing pages", 
@@ -167,7 +198,7 @@ export const BLOG_POSTS: BlogPost[] = [
     depth: 2,
     content:
       "sample banner design 1.",
-    image: "/p11/2.png",
+    image: "/p11/1.png",
     imageAlt: "websitebanners",
   },
    {
@@ -199,6 +230,26 @@ export const BLOG_POSTS: BlogPost[] = [
   }, 
     ],
   },
+{
+    slug: "The-Loop-Title-Annocement",
+    title: "The Loop TitleAnnocement",
+    description: "A Short video annocement for The Loop Title.", 
+    date: "2026-02-14",
+    image: "/p13/1.png",
+    sections: [
+      {
+    id: "Title Annocement.",
+    title: "The loop Title Annocement.",
+    depth: 2,
+    content:
+      "A Short video annocement for The Loop Title.",
+    image: "/p13/1.png",
+    imageAlt: "websitebanners",
+  },
+   
+    ],
+  },
+
    {
     slug: "WomensDay-Poster-Design",
     title: "Women's Day Poster Design",
@@ -321,8 +372,8 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "National-Service-Scheme",
     title: "National Service Scheme",
     description: "This project is related to the women's theme.",
-    date: "2026-02-14",
-    image: "/p3/1.png",
+    date: "2024-08-20",
+    image: "/p3/4.png",
     sections: [
       {
         id: "Social Media Campaign",
