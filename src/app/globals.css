@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 240 10% 4%;
+  --muted: 240 5% 96%;
+  --muted-foreground: 240 4% 46%;
+  --border: 240 6% 90%;
+  --accent: 240 5% 96%;
+  --popover: 0 0% 100%;
+
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+
+.dark {
+  --background: 240 10% 4%;
+  --foreground: 0 0% 98%;
+  --muted: 240 4% 12%;
+  --muted-foreground: 240 5% 65%;
+  --border: 240 4% 18%;
+  --accent: 240 4% 16%;
+  --popover: 240 8% 8%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+.link-underline {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: hsl(var(--border));
+  transition: text-decoration-color 0.2s ease;
+}
+.link-underline:hover {
+  text-decoration-color: hsl(var(--foreground));
+}
+
+.kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.25rem;
+  min-width: 1.25rem;
+  padding: 0 0.25rem;
+  border-radius: 0.25rem;
+  border: 1px solid hsl(var(--border));
+  background: hsl(var(--muted));
+  font-size: 0.7rem;
+  font-family: var(--font-mono);
+  color: hsl(var(--muted-foreground));
+}
+:root {
+  --separator-height: 2rem;
+}
+
+.stripe-divider {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    hsl(var(--border)) 0,
+    hsl(var(--border)) 1px,
+    transparent 1px,
+    transparent 8px
+  );
+  background-color: hsl(var(--background));
+}
+.screen-line-top {
+  border-top: 1px solid hsl(var(--border));
+}
+.screen-line-bottom {
+  border-bottom: 1px solid hsl(var(--border));
+}
+.scrollable-area {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--border)) transparent;
+}
+.scrollable-area::-webkit-scrollbar {
+  width: 8px;
+}
+.scrollable-area::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 9999px;
+}
+.scrollable-area::-webkit-scrollbar-track {
+  background: transparent;
+}
