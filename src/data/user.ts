@@ -35,8 +35,7 @@ export const EXPERIENCES = [
     company: "Freelance / Independent",
     period: "2023 — Present",
     description:
-      "I have been working as a freelance video editor, creating visual content for various clients and projects. My work includes editing promotional videos, social media content, and other marketing materials.",
-  },
+      "As a freelance video editor, I have produced engaging promotional videos, social media content, and marketing visuals for businesses and individuals." },
 ]
 
 export const EDUCATION = [
