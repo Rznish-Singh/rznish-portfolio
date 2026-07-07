@@ -106,7 +106,7 @@ export const BLOG_POSTS: BlogPost[] = [
     depth: 2,
     content:
       "This project focuses on creating a modern dashboard with a clean user experience.",
-    image: "/p1/1.png",
+    image: "/p1/11.png",
     imageAlt: "portfolio preview",
   },
   // {
