@@ -159,6 +159,35 @@ export const BLOG_POSTS: BlogPost[] = [
      
     ],
   },
+  {
+    slug: "MusicVideo-Poster-Design",
+    title: "Music Video Poster Design",
+    description: "This project focuses on creating a poster design for the Music Video celebration.",
+    date: "2026-03-04",
+    image: "/p9/1.png",
+    sections: [
+      {
+    id: "MusicVideo-Poster-Design",
+    title: "Music Video Poster Design",
+    depth: 2,
+    content:
+      "Sample poster 1.",
+    image: "/p9/1.png",
+    imageAlt: "musicvideoposterdesign",
+  },
+  {
+    id: "MusicVideo-Poster-Design",
+    title: " Poster Design",
+    depth: 2,
+    content:
+      "Sample Poster 2.",
+    image: "/p9/2.png",
+    imageAlt: "musicvideoposterdesign",
+  },
+    
+     
+    ],
+  },
     {
     slug: "Makar-Sankranti-Campaign",
     title: "Makar Sankranti Campaign",
@@ -179,24 +208,45 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
   },
 
-    {
-    slug: "WomensDay-Poster-Design",
-    title: "Women's Day Poster Design",
-    description: "This project focuses on creating a poster design for the Women's Day celebration.",
-    date: "2024-01-04",
-    image: "/p7/1.png",
+   
+   {
+    slug: "Rapsong-Poster-Design",
+    title: "Rapsong Poster Design",
+    description: "This project is related to the Rapsong theme.",
+    date: "2024-07-14",
+    image: "/p8/3.png",
     sections: [
       {
-    id: "WomensDay-Poster-Design",
-    title: "Women's Day Poster Design",
-    depth: 2,
-    content:
-      "Women's Day Celebration.",
-    image: "/p7/1.png",
-    imageAlt: "womensdayposterdesign",
-  },
-   
+        id: "Social Media Thumbnail",
+        title: "Social Media Thumbnail",
+        depth: 2,
+        image: "/p8/3.png",
+        imageAlt: "Social Media Thumbnail",
+        content:
+          "",
+      },
+      {
+        id: "Social Media Campaign",
+        title: "Social Media Campaign",
+        depth: 2,
+        image: "/p8/2.png",
+        imageAlt: "Social Media Campaign",
+        content:
+          "",
+      },
+      {
+        id: "insta story design",
+        title: "Insta Story Design",
+        depth: 2,
+        image: "/p8/1.png",
+        imageAlt: "Insta Story Design",
+        content:
+          "Explore our Insta story design for the Rapsong.",
+      },
      
+      
+       
+      
     ],
   },
    {
