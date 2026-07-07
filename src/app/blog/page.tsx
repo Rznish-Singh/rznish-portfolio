@@ -8,8 +8,8 @@ import {
 import { BlogList } from "@/components/blog-list"
 import { Separator } from "@/components/separator"
 
-const title = "Blog"
-const description = "Writing about code, design, and everything in between."
+const title = "Projects - My Creative Work"
+const description = "Explore my creative projects, showcasing my skills and expertise in design, development, and innovation. From web applications to digital art, discover a diverse portfolio of work that reflects my passion for creativity and problem-solving."
 
 export const metadata: Metadata = {
   title,

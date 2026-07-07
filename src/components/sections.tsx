@@ -201,7 +201,7 @@ export function Blog() {
     <section className="border-t border-border py-8">
       <div className="mb-4 flex items-center gap-1.5">
         <h2 className="font-mono text-xs font-medium uppercase tracking-widest text-muted-foreground">
-          Blog
+          Projects
         </h2>
         <span className="text-xs text-muted-foreground">
           ({BLOG_POSTS.length})

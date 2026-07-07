@@ -92,7 +92,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "Portfolio2026",
     title: "Portfolio 2026",
-    description: "The first post on this blog.",
+    description: "The portfolio 2026.",
     image: "/p1/12.png",
     date: "2026-01-01",
     isNew: true,
