@@ -29,20 +29,17 @@ export function ShareMenu({ title, url }: ShareMenuProps) {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant="outline" size="icon-sm">
-          <ShareIcon
-          />
-        </Button>
-      </DropdownMenuTrigger>
+      <DropdownMenuTrigger>
+  <Button variant="outline" size="icon-sm">
+    <ShareIcon />
+  </Button>
+</DropdownMenuTrigger>
 
       <DropdownMenuContent
-        className="w-fit"
-        align="start"
-        alignOffset={-6}
-        collisionPadding={16}
-        onCloseAutoFocus={(e) => e.preventDefault()}
-      >
+  className="w-fit"
+  align="start"
+  alignOffset={-6}
+>
         <DropdownMenuItem
           onClick={() => {
             copyText(absoluteUrl)
@@ -54,27 +51,8 @@ export function ShareMenu({ title, url }: ShareMenuProps) {
           Copy link
         </DropdownMenuItem>
 
-        <DropdownMenuItem asChild>
-          <a
-            href={`https://x.com/intent/tweet?url=${urlEncoded}`}
-            target="_blank"
-            rel="noopener"
-          >
-            <XIcon />
-            Share on X
-          </a>
-        </DropdownMenuItem>
-
-        <DropdownMenuItem asChild>
-          <a
-            href={`https://www.linkedin.com/sharing/share-offsite?url=${urlEncoded}`}
-            target="_blank"
-            rel="noopener"
-          >
-            <LinkedInIcon />
-            Share on LinkedIn
-          </a>
-        </DropdownMenuItem>
+        
+        
 
         {typeof navigator !== "undefined" && "share" in navigator && (
           <DropdownMenuItem
