@@ -138,6 +138,28 @@ export const BLOG_POSTS: BlogPost[] = [
 
 
 {
+    slug: "ganesh-chaturthi-animated-Poster",
+    title: "Ganesh Chaturthi Animated Poster",
+    description: "Animated poster for Ganesh Chaturthi celebration", 
+    date: "2026-06-05",
+    image: "/p20/1.gif",
+    sections: [
+      {
+    id: "social media ",
+    title: "Sample video",
+    depth: 2,
+    content:
+      "ganesh chaturthi animated poster design .",
+    image: "/p20/1.gif",
+    imageAlt: "ganesh chaturthi animated poster",
+  },
+   
+    
+     
+    ],
+  },
+
+{
     slug: "instagram-username-video-announcement",
     title: "Instagram Username video Announcement (sample)",
     description: "instagram username announcement and social media campaign for Graphic Era Hill University", 
