@@ -24,7 +24,7 @@ export const TESTIMONIALS: Testimonial[] = [
   isFeatured: true,
 },
 {
-  authorAvatar: "/Testimonial/t1/yv.JPG",
+  authorAvatar: "https://res.cloudinary.com/dy4xybzrn/image/upload/v1784704642/yv.jpg",
   authorName: "Yuvraj Singh",
   authorTagline: "Kandali",
   url: "",
