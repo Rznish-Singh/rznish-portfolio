@@ -96,7 +96,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "Portfolio2026",
     title: "Portfolio 2026",
     description: "The portfolio 2026.",
-    image: "/p1/12.png",
+    image: "/p1/12.webp",
     date: "2026-01-01",
     isNew: true,
     sections: [
@@ -106,7 +106,7 @@ export const BLOG_POSTS: BlogPost[] = [
     depth: 2,
     content:
       "This project focuses on creating a modern dashboard with a clean user experience.",
-    image: "/p1/11.png",
+    image: "/p1/11.webp",
     imageAlt: "portfolio preview",
   },
   // {
@@ -115,7 +115,7 @@ export const BLOG_POSTS: BlogPost[] = [
   //   depth: 2,
   //   content:
   //     "Explore the complete design process, wireframes, and high-fidelity mockups on Behance.",
-  //   image: "/p1/11.png",
+  //   image: "/p1/11.webp",
   //   imageAlt: "Behance project preview",
   //   // links: [
   //   //   {
@@ -135,7 +135,54 @@ export const BLOG_POSTS: BlogPost[] = [
 ]
   },
 
-
+ {
+    slug: "Ganesh-Chaturthi-Poster-Design",
+    title: "Ganesh Chaturthi Poster Design",
+    description: "Ganesh Chaturthi poster design", 
+    date: "2026-08-31",
+    image: "/p21/1.webp",
+    sections: [
+      {
+    id: "social media ",
+    title: "Ganesh Chaturthi Poster Design",
+    depth: 2,
+    content:
+      "Ganesh Chaturthi social media post .",
+    image: "/p21/1.webp",
+    imageAlt: "ganeshchaturthiposterdesign",
+  },
+   {
+    id: "",
+    title: "",
+    depth: 2,
+    content:
+      "",
+    image: "/p21/2.webp",
+    imageAlt: "ganeshchaturthiposter",
+  },
+   {
+    id: "",
+    title: "",
+    depth: 2,
+    content:
+      "",
+    image: "/p21/3.webp",
+    imageAlt: "ganeshchaturthiposter",
+  },
+   {
+    id: "",
+    title: "",
+    depth: 2,
+    content:
+      "",
+    image: "/p21/4.webp",
+    imageAlt: "ganeshchaturthithankyouposter",
+  },
+   
+    
+     
+    ],
+  },
 
 {
     slug: "ganesh-chaturthi-animated-Poster",
@@ -473,13 +520,13 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "National Service Scheme",
     description: "This project is related to the women's theme.",
     date: "2024-08-20",
-    image: "/p3/4.png",
+    image: "/p3/4.webp",
     sections: [
       {
         id: "Social Media Campaign",
         title: "Social Media Campaign",
         depth: 2,
-        image: "/p3/1.png",
+        image: "/p3/1.webp",
         imageAlt: "Social Media Campaign",
         content:
           "This project focuses on creating a social media campaign for the National Service Scheme, highlighting their initiatives and community impact.",
@@ -488,7 +535,7 @@ export const BLOG_POSTS: BlogPost[] = [
         id: "insta story design",
         title: "Insta Story Design",
         depth: 2,
-        image: "/p3/3.png",
+        image: "/p3/3.webp",
         imageAlt: "Insta Story Design",
         content:
           "Explore our Insta story design for the National Service Scheme campaign, showcasing their activities and events.",
@@ -497,7 +544,7 @@ export const BLOG_POSTS: BlogPost[] = [
         id: "insta story design",
         title: "Insta Story Design",
         depth: 2,
-        image: "/p3/4.png",
+        image: "/p3/4.webp",
         imageAlt: "Insta Story Design",
         content:
           "",
@@ -507,7 +554,7 @@ export const BLOG_POSTS: BlogPost[] = [
         id: "insta Post design",
         title: "Insta Post Design",
         depth: 2,
-        image: "/p3/2.png",
+        image: "/p3/2.webp",
         imageAlt: "Insta Post Design",
         content:
           "Explore our Insta post design for the National Service Scheme campaign, showcasing their activities and events.",
@@ -520,7 +567,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Registration NssGehu",
     description: " poster design  for new  enrollment in  NssGehu",
     date: "2025-02-14",
-    image: "/p2/1.jpg",
+    image: "/p2/1.webp",
     sections: [
       {
     id: "introduction",
@@ -528,7 +575,7 @@ export const BLOG_POSTS: BlogPost[] = [
     depth: 2,
     content:
       "This project focuses on get more attention for enrollmennt for nss gehu.",
-    image: "/p2/logo.png",
+    image: "/p2/logo.webp",
     imageAlt: "nssgehulogo",
   },
       {
@@ -537,7 +584,7 @@ export const BLOG_POSTS: BlogPost[] = [
         depth: 2,
         content:
           "Meet the talented individuals behind this Organisation.",
-        image: "/p2/1.jpg",
+        image: "/p2/1.webp",
         imageAlt: "Team photo",
       },
       {
@@ -546,7 +593,7 @@ export const BLOG_POSTS: BlogPost[] = [
         depth: 2,
         content:
           "Check out our banner designs for the NssGehu registration campaign.",
-        image: "/p2/2.jpg",
+        image: "/p2/2.webp",
         
         imageAlt: "Banner designs",
       },
@@ -557,7 +604,7 @@ export const BLOG_POSTS: BlogPost[] = [
         content:
           "Explore our poster design for the NssGehu registration campaign.",
         imageAlt: "Social Media Design",
-                image: "/p2/3.jpg",
+                image: "/p2/3.webp",
       },
     ],
   },
