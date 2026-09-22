@@ -24,13 +24,13 @@ type BlogPreview = {
 
 const PAGE_LINKS = [
   { title: "Home", href: "/", icon: HomeIcon },
-  { title: "Blog", href: "/blog", icon: NewspaperIcon },
+  { title: "Project", href: "/projects", icon: NewspaperIcon },
 ]
 
-const OTHER_LINKS = [
-  { title: "RSS Feed", href: "/rss", icon: RssIcon, newTab: true },
-  { title: "llms.txt", href: "/llms.txt", icon: FileTextIcon, newTab: true },
-]
+// const OTHER_LINKS = [
+//   { title: "RSS Feed", href: "/rss", icon: RssIcon, newTab: true },
+//   { title: "llms.txt", href: "/llms.txt", icon: FileTextIcon, newTab: true },
+// ]
 
 export function CommandMenu({ posts = [] }: { posts?: BlogPreview[] }) {
   const router = useRouter()
@@ -197,7 +197,7 @@ export function CommandMenu({ posts = [] }: { posts?: BlogPreview[] }) {
                     heading="Other"
                     className="px-2 py-1.5 text-xs font-medium text-muted-foreground [&_[cmdk-group-heading]]:px-1 [&_[cmdk-group-heading]]:pb-1"
                   >
-                    {OTHER_LINKS.map((link) => (
+                    {/* {OTHER_LINKS.map((link) => (
                       <Command.Item
                         key={link.href}
                         onSelect={() => go(link.href, link.newTab)}
@@ -206,7 +206,7 @@ export function CommandMenu({ posts = [] }: { posts?: BlogPreview[] }) {
                         <link.icon className="size-4" />
                         {link.title}
                       </Command.Item>
-                    ))}
+                    ))} */}
                   </Command.Group>
                 </Command.List>
 
